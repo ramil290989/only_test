@@ -1,0 +1,110 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+button {
+  min-width: 41px;
+  height: 41px;
+  border-radius: 20px;
+  color: #FFF;
+  font-size: 14px;
+}
+#buttons {
+  width: 100vw;
+  height: 100vh;
+  max-width: 1920px;
+  min-width: 1280px;
+  background-image: url(../img/carnaby.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: top center;
+  background-size: cover;
+  background-color: #0000008f;
+  background-blend-mode: darken;
+}
+.btn-collapse {
+  background-image: url(../img/plus.svg);
+  background-repeat: no-repeat;
+  background-position: center left 14px;
+  background-size: auto;
+}
+.btn-expand {
+  background-image: url(../img/minus.svg);
+  background-repeat: no-repeat;
+  background-position: center left 14px;
+  background-size: auto;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.btn-blue {
+  background-color: #3878eeac;
+  border: solid 2px #3877EE;
+}
+.btn-blue:hover {
+  transition: 0.5s;
+  background-color: #3878eed5;
+}
+.btn-blue:enabled {
+  transition: 0.5s;
+}
+.btn-green {
+  background-color: #6abf4ba9;
+  border: solid 2px #6ABF4B;
+}
+.btn-green:hover {
+  transition: 0.5s;
+  background-color: #6abf4bca;
+}
+.btn-green:enabled {
+  transition: 0.5s;
+}
+#apartments {
+  position: absolute;
+  margin-top: 11%;
+  margin-left: 71%;
+}
+#bridge {
+  position: absolute;
+  margin-top: 37%;
+  margin-left: 23%;
+}
+#cylinder {
+  position: absolute;
+  margin-top: 32%;
+  margin-left: 56%;
+}
+#hotel1 {
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 31%;
+}
+#hotel2 {
+  position: absolute;
+  margin-top: 41%;
+  margin-left: 57%;
+}
+#museum {
+  position: absolute;
+  margin-top: 21%;
+  margin-left: 60%;
+}
+#office1 {
+  position: absolute;
+  margin-top: 24%;
+  margin-left: 73%;
+}
+#office2 {
+  position: absolute;
+  margin-top: 35%;
+  margin-left: 68%;
+}
+#office3 {
+  position: absolute;
+  margin-top: 37%;
+  margin-left: 83%;
+}
+#stadium {
+  position: absolute;
+  margin-top: 25%;
+  margin-left: 36%;
+}
